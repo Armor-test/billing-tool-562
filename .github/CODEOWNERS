@@ -1,0 +1,39 @@
+# CODEOWNERS file for billing-tool-562
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-identity @Armor-test/dept-release @Armor-test/grp-search
+
+# Directory ownership
+/pkg/ @Armor-test/squad-payments @Armor-test/unit-design @Armor-test/dept-security
+/helpers/ @Armor-test/grp-api @Armor-test/dept-test
+/hooks/ @Armor-test/dept-automation @Armor-test/dept-release
+/core/ @Armor-test/squad-frontend @Armor-test/squad-tooling
+/config/ @Armor-test/dept-logging @Armor-test/dept-automation
+/utils/ @Armor-test/squad-mobile @Armor-test/unit-governance @Armor-test/squad-cache
+/api/ @Armor-test/team-governance @Armor-test/squad-ux @Armor-test/squad-payments
+/internal/ @Armor-test/grp-ui @Armor-test/dept-data @Armor-test/squad-frontend
+/docs/ @Armor-test/dept-logging @Armor-test/squad-frontend @Armor-test/squad-research
+/tests/ @Armor-test/team-frontend @Armor-test/dept-security
+/web/ @Armor-test/grp-reporting @Armor-test/dept-identity
+/plugins/ @Armor-test/unit-devops @Armor-test/dept-release @Armor-test/squad-tooling
+/data/ @Armor-test/grp-api @Armor-test/squad-qa @Armor-test/squad-cache
+/db/ @Armor-test/dept-reporting @Armor-test/team-notifications
+/security/ @Armor-test/squad-api @Armor-test/dept-reliability @Armor-test/squad-mobile
+
+# File type ownership
+*.ts @Armor-test/team-logging @Armor-test/dept-data
+*.md @Armor-test/dept-api @Armor-test/unit-test @Armor-test/unit-governance
+*.gradle @Armor-test/unit-cloud @Armor-test/team-logging @Armor-test/grp-reporting
+*.tsx @Armor-test/grp-storage @Armor-test/dept-identity
+*.html @Armor-test/team-governance @Armor-test/unit-cloud
+*.ini @Armor-test/squad-cloud @Armor-test/unit-devops
+*.xml @Armor-test/squad-database @Armor-test/grp-integration @Armor-test/squad-qa
+*.rs @Armor-test/grp-reporting @Armor-test/dept-test @Armor-test/dept-ui
+*.cpp @Armor-test/squad-performance @Armor-test/squad-payments @Armor-test/squad-mobile
+*.java @Armor-test/grp-api @Armor-test/unit-cloud
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
